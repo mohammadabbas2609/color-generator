@@ -1,7 +1,11 @@
 body {
   height: 100vh;
-  display: grid;
-  place-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.1s;
+  overflow: hidden;
 }
 
 button {
@@ -19,4 +23,19 @@ button {
 button:hover {
   opacity: 0.9;
   transform: rotateX(360deg);
+}
+
+.rgbcode {
+  display: none;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px 20px;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 2px;
 }
