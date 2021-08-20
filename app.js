@@ -17,3 +17,5 @@ function changeBackground() {
 
   display.textContent = color;
 }
+
+btn.addEventListener("click", changeBackground);
