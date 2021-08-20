@@ -4,3 +4,16 @@ body {
   display: grid;
   place-content: center;
 }
+
+h2 {
+  color: gray;
+}
+
+h4 {
+  font-size: 2rem;
+  color: darkgoldenrod;
+}
+
+p {
+  color: crimson;
+}
